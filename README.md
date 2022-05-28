@@ -8,18 +8,42 @@
 ## Step 0 - Import Dependencies
 <details>
   <summary>Common Dependencies</summary>
+  
+  **Tensorflow**
   <pre>
-    import tensorflow as tf
-    print(tf.__version__)
+  import tensorflow as tf
+  print(tf.__version__)
   </pre>
+  
+  **Keras**
   <pre>
-    from tensorflow import keras
-    from tensorflow.keras import layers
+  from tensorflow import keras
+  from tensorflow.keras import layers
   </pre>
+  
+  **Numpy & Matplotlib**
+  <pre>
+  import numpy as np
+  import matplotlib.pyplot as plt
+  </pre>
+  
 </details>
 
-## model.compile()
-Before start training a model, we need to pick an optmizer, a loss, and some metrics
-### Optimizer
-### Loss
-### Metrics
+## Step 1 - Load Dataset
+## Step 2 - Preprocessing the dataset
+## Step 3 - Build the machine learning model
+## Step 4 - Train the model
+<details>
+  <summary>Before start training a model, we need to pick an optmizer, a loss, and some metrics</summary>
+  
+  <pre>
+  model.compile(optimizer='adam',
+                loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+                metrics=['accuracy'])
+  </pre>
+  
+  **Optimizer** \
+  **Loss** \
+  **Metrics**
+  
+</details>
