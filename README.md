@@ -1,4 +1,8 @@
 # HN_ML_From_Scratch
+This is a repository to record the ML projects and useful information in my self-learning path on Machine Learning
+
+**Also refer to other of my AI Projects:** \
+HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforcement_Learning_Projects
 
 | Machine Learning Exercise | Description | Image | Hyperparameters |
 | ------------------------- | ----------- | ----- | --------------- |
