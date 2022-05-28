@@ -36,14 +36,23 @@
 <details>
   <summary>Before start training a model, we need to pick an optmizer, a loss, and some metrics</summary>
   
+  **Example**
   <pre>
   model.compile(optimizer='adam',
                 loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
                 metrics=['accuracy'])
   </pre>
   
-  **Optimizer** \
-  **Loss** \
-  **Metrics**
+  <details>
+    <summary>Optimizer</summary>
+  </details>
   
+  <details>
+    <summary>Loss</summary>
+  </details>
+  
+  <details>
+    <summary>Metrics</summary>
+  </details>
+
 </details>
