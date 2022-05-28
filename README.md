@@ -71,7 +71,7 @@
 
 </details>
 
-## step 5-Train the model
-## step 6-Evaluate the model
-## step 7-Prediction
+## Step 5-Train the model
+## Step 6-Evaluate the model
+## Step 7-Prediction
 
