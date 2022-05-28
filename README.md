@@ -29,7 +29,8 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
   **Numpy & Matplotlib**
   <pre>
   import numpy as np
-  import matplotlib.pyplot as plt
+  #import matplotlib.pyplot as plt
+  from matplotlib import pyplot as plt
   </pre>
   
 </details>
