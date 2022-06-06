@@ -54,7 +54,7 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
   </pre>
 </details>
 
-### Step 4 - Train the model
+### Step 4 - Complite Model with optimizer, loss, metrics
 <details>
   <summary>Before start training a model, we need to pick an optmizer, a loss, and some metrics</summary>
   
