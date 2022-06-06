@@ -79,9 +79,9 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
 
 </details>
 
-### Step 5-Train the model
-### Step 6-Evaluate the model
-### Step 7-Prediction
+### Step 5 - Train the model
+### Step 6 - Evaluate the model
+### Step 7 - Prediction
 
 
 # Optmization vs Generalization
