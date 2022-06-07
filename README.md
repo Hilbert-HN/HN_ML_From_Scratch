@@ -119,8 +119,8 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
 
 ### Step 5 - Train the model
 ### Step 6 - Evaluate the model
-### Step 7 - Add last Activation Function & Prediction
-
+### Step 7 - Add Last Activation Layer 
+### Step 8 - Prediction
 
 # Optmization vs Generalization
 
