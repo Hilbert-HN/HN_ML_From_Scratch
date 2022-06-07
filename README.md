@@ -123,3 +123,9 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
 
 
 # Optmization vs Generalization
+
+
+# Recommended Reference
+**Book** \
+[Deep Learning with Python, 2nd Edition (Manning Publications) - By François Chollet](https://www.manning.com/books/deep-learning-with-python-second-edition?a_aid=keras&a_bid=76564dff) \
+Github: https://github.com/fchollet/deep-learning-with-python-notebooks
