@@ -74,7 +74,49 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
 ### Step 1 - Load Dataset
 ### Step 2 - Preprocessing the dataset
 ### Step 3 - Build the machine learning model
+<details>
+  <summary>The basic building block of a neural network is the layer. Layers extract representations from the data fed into them.</summary>
+  
+  **Example**
+  ```
+  model = keras.Sequential([
+                            layers.Flatten(input_shape = (28,28)),
+                            layers.Dense (128, activation = 'relu'),
+                            layers.Dense(10)
+  ])
+  ```
+</details>
 
+### Step 4 - Compile Model with optimizer, loss, metrics
+<details>
+  <summary>Before start training a model, we need to pick an optmizer, a loss, and some metrics</summary>
+  
+  **Example**
+  ```
+  model.compile(optimizer='adam',
+                loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+                metrics=['accuracy'])
+  ```
+  
+  <details>
+    <summary>Optimizer</summary>
+    This is how the model is updated based on the data it sees and its loss function.    
+  </details>
+  
+  <details>
+    <summary>Loss</summary>
+    https://www.tensorflow.org/api_docs/python/tf/keras/losses
+    
+    This measures how accurate the model is during training. You want to minimize this function to "steer" the model in the right direction.
+
+  </details>
+  
+  <details>
+    <summary>Metrics</summary>
+    Used to monitor the training and testing steps. The following example uses accuracy, the fraction of the images that are correctly classified.
+  </details>
+
+</details>
 
 ### Step 5 - Train the model
 ### Step 6 - Evaluate the model
