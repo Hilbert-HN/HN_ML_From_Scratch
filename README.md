@@ -18,41 +18,41 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
   <summary>Common Dependencies</summary>
   
   **Tensorflow**
-  <pre>
+  ```
   import tensorflow as tf
   print(tf.__version__)
-  </pre>
+  ```
   
   **Keras**
-  <pre>
+  ```
   from tensorflow import keras
   from tensorflow.keras import layers
   
   #Optional
   from tensorflow.keras import losses
-  </pre>
+  ```
   
   **Numpy**
-  <pre>
+  ```
   import numpy as np
-  </pre>
+  ```
   
   **Matplotlib**
-  <pre>
+  ```
   import numpy as np
   from matplotlib import pyplot as plt
   
   #same as
   #import matplotlib.pyplot as plt
-  </pre>
+  ```
   
   **Handing Directory**
-  <pre>
+  ```
   import os
   import shutil
   
   #Refer to 03_IMDB_Sentiment_Analysis.ipynb
-  </pre>
+  ```
  
 </details>
 
@@ -60,14 +60,14 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
   <summary>Specific Dependencies</summary>
   
   **Handling pattern and text**
-  <pre>
+  ```
   import re
   # https://docs.python.org/3/library/re.html
   import string
   # https://docs.python.org/3/library/string.html
   
   #Refer to 03_IMDB_Sentiment_Analysis.ipynb
-  </pre>
+  ```
   
 </details>
 
@@ -78,13 +78,13 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
   <summary>The basic building block of a neural network is the layer. Layers extract representations from the data fed into them.</summary>
   
   **Example**
-  <pre>
+  ```
   model = keras.Sequential([
                             layers.Flatten(input_shape = (28,28)),
                             layers.Dense (128, activation = 'relu'),
                             layers.Dense(10)
   ])
-  </pre>
+  ```
 </details>
 
 ### Step 4 - Compile Model with optimizer, loss, metrics
@@ -92,17 +92,17 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
   <summary>Before start training a model, we need to pick an optmizer, a loss, and some metrics</summary>
   
   **Example**
-  <pre>
+  ```
   model.compile(optimizer='adam',
                 loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
                 metrics=['accuracy'])
-  </pre>
+  ```
   
   
   
   <details>
     <summary>Optimizer</summary>
-    This is how the model is updated based on the data it sees and its loss function.
+    This is how the model is updated based on the data it sees and its loss function.    
   </details>
   
   <details>
@@ -111,11 +111,10 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
     https://www.tensorflow.org/api_docs/python/tf/keras/losses
     
     **2 Common to call loss function**
-
+    ```
     model.compile(loss=tf.keras.losses.BinaryCrossentropy(from_logits=True))
-
     model.compile(loss='binary_crossentropy')
-
+    ```
 
     
     
