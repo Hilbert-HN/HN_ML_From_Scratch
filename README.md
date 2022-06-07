@@ -29,13 +29,41 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
   from tensorflow.keras import layers
   </pre>
   
-  **Numpy & Matplotlib**
+  **Numpy**
+  <pre>
+  import numpy as np
+  </pre>
+  
+  **Matplotlib**
   <pre>
   import numpy as np
   from matplotlib import pyplot as plt
   
   #same as
   #import matplotlib.pyplot as plt
+  </pre>
+  
+  **Handing Directory**
+  <pre>
+  import os
+  import shutil
+  
+  #Refer to 03_IMDB_Sentiment_Analysis.ipynb
+  </pre>
+ 
+</details>
+
+<details>
+  <summary>Specific Dependencies</summary>
+  
+  **Handling pattern and text**
+  <pre>
+  import re
+  # https://docs.python.org/3/library/re.html
+  import string
+  # https://docs.python.org/3/library/string.html
+  
+  #Refer to 03_IMDB_Sentiment_Analysis.ipynb
   </pre>
   
 </details>
