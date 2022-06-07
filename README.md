@@ -109,15 +109,6 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
     <summary>Loss</summary>
     This measures how accurate the model is during training. You want to minimize this function to "steer" the model in the right direction.
     https://www.tensorflow.org/api_docs/python/tf/keras/losses
-    
-    **2 Common to call loss function**
-    ```
-    model.compile(loss=tf.keras.losses.BinaryCrossentropy(from_logits=True))
-    model.compile(loss='binary_crossentropy')
-    ```
-
-    
-    
   </details>
   
   <details>
