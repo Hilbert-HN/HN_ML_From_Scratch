@@ -105,9 +105,8 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
   
   <details>
     <summary>Loss</summary>
-    https://www.tensorflow.org/api_docs/python/tf/keras/losses
-    
-    This measures how accurate the model is during training. You want to minimize this function to "steer" the model in the right direction.
+    This measures how accurate the model is during training. You want to minimize this function to "steer" the model in the right direction. <br />
+    Tensorflow.keras.loss Documenation:  https://www.tensorflow.org/api_docs/python/tf/keras/losses <br />
 
   </details>
   
