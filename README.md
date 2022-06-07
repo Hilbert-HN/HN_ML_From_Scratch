@@ -27,6 +27,9 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
   <pre>
   from tensorflow import keras
   from tensorflow.keras import layers
+  
+  #Optional
+  from tensorflow.keras import losses
   </pre>
   
   **Numpy**
