@@ -6,10 +6,10 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
 
 # TensorFlow Exercises
 | TensorFlow Exercise | Description | Image | model.compile() | Last Activation Layer|
-| ------------------- | ----------- | ----- | ------- | -------------------- |
-| 01-MNIST | Multiclass Classification for images of hand written digits  | ![image](https://user-images.githubusercontent.com/40123599/170816078-14dfc2e2-9f5d-455c-a310-0ba33d47b9dd.png) | optimizer='adam' or 'rmsprop', <br />loss='sparse_categorical_crossentropy',<br />metrics=['accuracy'] | layers.Activation('softmax')| 
-| 02-Fashsion MNIST | Multiclass Classification for images of clothing |![image](https://user-images.githubusercontent.com/40123599/170819065-2cbcef21-973a-43dc-93cc-d7f04d4f0426.png)|optimizer='adam',<br />loss='sparse_categorical_crossentropy',<br />metrics=['accuracy'] | layers.Activation('softmax')|
-| 03-IMDB Sentiment Analysis| Binary Classification for text of Movie Review |![image](https://user-images.githubusercontent.com/40123599/172426399-7f776100-8b02-49fc-aed0-9c3cd3039d96.png)| optimizer='adam',<br />loss=losses.BinaryCrossentropy(from_logits=True),<br />metrics=tf.metrics.BinaryAccuracy(threshold=0.0) | layers.Activation('sigmoid')|
+| ------------------- | ----------- | ----- | --------------- | -------------------- |
+| 01-MNIST | Multiclass Classification for images of hand written digits  | ![image](https://user-images.githubusercontent.com/40123599/170816078-14dfc2e2-9f5d-455c-a310-0ba33d47b9dd.png) | optimizer='adam' or 'rmsprop', <br />loss='sparse_categorical_crossentropy',<br />metrics=['accuracy'] | softmax | 
+| 02-Fashsion MNIST | Multiclass Classification for images of clothing |![image](https://user-images.githubusercontent.com/40123599/170819065-2cbcef21-973a-43dc-93cc-d7f04d4f0426.png)|optimizer='adam',<br />loss='sparse_categorical_crossentropy',<br />metrics=['accuracy'] | softmax |
+| 03-IMDB Sentiment Analysis| Binary Classification for text of Movie Review |![image](https://user-images.githubusercontent.com/40123599/172426399-7f776100-8b02-49fc-aed0-9c3cd3039d96.png)| optimizer='adam',<br />loss=losses.BinaryCrossentropy(from_logits=True),<br />metrics=tf.metrics.BinaryAccuracy(threshold=0.0) | sigmoid |
 
 
 # Typical Machine Learning Workflow
