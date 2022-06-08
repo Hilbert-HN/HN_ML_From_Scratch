@@ -7,6 +7,7 @@
 This is a repository to record the ML projects and useful information in my self-learning path on Machine Learning
 
 # TensorFlow Exercises
+TensorFlow Tutorial: https://www.tensorflow.org/tutorials
 | TensorFlow Exercise | Description | Image | model.compile() | Last Activation Layer|
 | ------------------- | ----------- | ----- | --------------- | -------------------- |
 | [01-MNIST](01_TensorFlow_Exercises/01_MNIST.ipynb) | Multiclass Classification for images of hand written digits  | ![image](https://user-images.githubusercontent.com/40123599/170816078-14dfc2e2-9f5d-455c-a310-0ba33d47b9dd.png) | optimizer='adam' or 'rmsprop' <br />loss='sparse_categorical_crossentropy'<br />metrics=['accuracy'] | softmax | 
