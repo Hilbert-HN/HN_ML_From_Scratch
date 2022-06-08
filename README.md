@@ -139,9 +139,6 @@ model.compile(optimizer='adam',
 ### Step 7 - Add Last Activation Layer 
 ### Step 8 - Prediction
 
-# Optmization vs Generalization
-
-
 # Recommended Reference
 **Book** \
 [Deep Learning with Python, 2nd Edition (Manning Publications) - By François Chollet](https://www.manning.com/books/deep-learning-with-python-second-edition?a_aid=keras&a_bid=76564dff) \
