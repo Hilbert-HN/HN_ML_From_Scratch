@@ -109,7 +109,7 @@ model.compile(optimizer='adam',
   This measures how accurate the model is during training. You want to minimize this function to "steer" the model in the right direction.  
   Tensorflow.keras.loss Documenation - https://www.tensorflow.org/api_docs/python/tf/keras/losses  
   <br /><br />
-  There are 2 common ways for calling the loss functions with model.comiple() API
+  There are 2 common ways for calling the loss functions with model.compile ( ) API
 
   **Recommended Usage (set from_logits=True)**
   ```python
