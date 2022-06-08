@@ -74,18 +74,17 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
 ### Step 1 - Load Dataset
 ### Step 2 - Preprocessing the dataset
 ### Step 3 - Build the machine learning model
-<details>
-  <summary>The basic building block of a neural network is the layer. Layers extract representations from the data fed into them.</summary>
-  
-  **Example**
-  ```python
-  model = keras.Sequential([
-                            layers.Flatten(input_shape = (28,28)),
-                            layers.Dense (128, activation = 'relu'),
-                            layers.Dense(10)
-  ])
-  ```
-</details>
+
+The basic building block of a neural network is the layer. Layers extract representations from the data fed into them.
+
+**Example**
+```python
+model = keras.Sequential([
+                          layers.Flatten(input_shape = (28,28)),
+                          layers.Dense (128, activation = 'relu'),
+                          layers.Dense(10)
+])
+```
 
 ### Step 4 - Compile Model with optimizer, loss, metrics
 
@@ -106,15 +105,15 @@ model.compile(optimizer='adam',
 <details>
   <summary>Loss</summary>
   This measures how accurate the model is during training. You want to minimize this function to "steer" the model in the right direction.  
-  Tensorflow.keras.loss Documenation:  https://www.tensorflow.org/api_docs/python/tf/keras/losses  
+  Tensorflow.keras.loss Documenation - https://www.tensorflow.org/api_docs/python/tf/keras/losses  
   <br /><br />
   There are 2 common ways for calling the loss functions with model.comiple() API
-  <br /><br />
-  
+
   **Recommended Usage (set from_logits=True)**
   ```python
   # y_pred represents a logit, i.e, value in [-inf, inf]  
   # Last activation layer is not included  
+  
   loss=tf.keras.losses.BinaryCrossentropy(from_logits=True)
   ```
 
@@ -122,6 +121,7 @@ model.compile(optimizer='adam',
   ```python
   # y_pred represents a probability, i.e, value in [0, 1]  
   # Last activation layer is included  
+  
   loss='binary_crossentropy'
   ```
 
