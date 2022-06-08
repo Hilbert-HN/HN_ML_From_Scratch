@@ -18,13 +18,13 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
   <summary>Common Dependencies</summary>
   
   **Tensorflow**
-  ```
+  ```python
   import tensorflow as tf
   print(tf.__version__)
   ```
   
   **Keras**
-  ```
+  ```python
   from tensorflow import keras
   from tensorflow.keras import layers
   
@@ -33,12 +33,12 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
   ```
   
   **Numpy**
-  ```
+  ```python
   import numpy as np
   ```
   
   **Matplotlib**
-  ```
+  ```python
   import numpy as np
   from matplotlib import pyplot as plt
   
@@ -47,7 +47,7 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
   ```
   
   **Handing Directory**
-  ```
+  ```python
   import os
   import shutil
   
@@ -60,7 +60,7 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
   <summary>Specific Dependencies</summary>
   
   **Handling pattern and text**
-  ```
+  ```python
   import re
   # https://docs.python.org/3/library/re.html
   import string
@@ -78,7 +78,7 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
   <summary>The basic building block of a neural network is the layer. Layers extract representations from the data fed into them.</summary>
   
   **Example**
-  ```
+  ```python
   model = keras.Sequential([
                             layers.Flatten(input_shape = (28,28)),
                             layers.Dense (128, activation = 'relu'),
@@ -88,32 +88,49 @@ HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforceme
 </details>
 
 ### Step 4 - Compile Model with optimizer, loss, metrics
-<details>
-  <summary>Before start training a model, we need to pick an optmizer, a loss, and some metrics</summary>
-  
-  **Example**
-  ```
-  model.compile(optimizer='adam',
-                loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
-                metrics=['accuracy'])
-  ```
-  
-  <details>
-    <summary>Optimizer</summary>
-    This is how the model is updated based on the data it sees and its loss function.    
-  </details>
-  
-  <details>
-    <summary>Loss</summary>
-    This measures how accurate the model is during training. You want to minimize this function to "steer" the model in the right direction. <br />
-    Tensorflow.keras.loss Documenation:  https://www.tensorflow.org/api_docs/python/tf/keras/losses <br />
 
-  </details>
+Before start training a model, we need to pick an optmizer, a loss, and some metrics
+
+**Example**
+```python
+model.compile(optimizer='adam',
+              loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+              metrics=['accuracy'])
+```
+
+<details>
+  <summary>Optimizer</summary>
+  This is how the model is updated based on the data it sees and its loss function.    
+</details>
+
+<details>
+  <summary>Loss</summary>
+  This measures how accurate the model is during training. You want to minimize this function to "steer" the model in the right direction.  
+  Tensorflow.keras.loss Documenation:  https://www.tensorflow.org/api_docs/python/tf/keras/losses  
+  <br /><br />
+  There are 2 common ways for calling the loss functions with model.comiple() API
+  <br /><br />
   
-  <details>
-    <summary>Metrics</summary>
-    Used to monitor the training and testing steps. The following example uses accuracy, the fraction of the images that are correctly classified.
-  </details>
+  **Recommended Usage (set from_logits=True)**
+  ```python
+  # y_pred represents a logit, i.e, value in [-inf, inf]  
+  # Last activation layer is not included  
+  loss=tf.keras.losses.BinaryCrossentropy(from_logits=True)
+  ```
+
+  **Default Usage (set from_logits=False)**  
+  ```python
+  # y_pred represents a probability, i.e, value in [0, 1]  
+  # Last activation layer is included  
+  loss='binary_crossentropy'
+  ```
+
+</details>
+
+<details>
+  <summary>Metrics</summary>
+  Used to monitor the training and testing steps. The following example uses accuracy, the fraction of the images that are correctly classified.
+</details>
 
 </details>
 
