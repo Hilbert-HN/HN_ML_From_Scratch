@@ -80,7 +80,7 @@ TensorFlow Tutorial: https://www.tensorflow.org/tutorials
 
 The basic building block of a neural network is the layer. Layers extract representations from the data fed into them.
 
-There are 2 ways of building Sequential model
+There are 2 ways of building Sequential model  
 **Example**
 ```python
 model = keras.Sequential([
