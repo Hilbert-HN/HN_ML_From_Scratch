@@ -83,11 +83,18 @@ The basic building block of a neural network is the layer. Layers extract repres
 **Example**
 ```python
 model = keras.Sequential([
-                          layers.Flatten(input_shape = (28,28)),
-                          layers.Dense (128, activation = 'relu'),
-                          layers.Dense(10)
+                          layers.Dense(64, activation = 'relu'),
+                          layers.Dense(10, actuvation = 'softmax')
 ])
 ```
+
+```python
+model = keras.Sequential()
+model.add(layers.Dense(64, activation = 'relu'))
+model.add(layers.Dense(10, activation = 'softmax'))
+])
+```
+
 
 ### Step 4 - Compile Model with optimizer, loss, metrics
 
