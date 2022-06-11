@@ -153,3 +153,7 @@ model.compile(optimizer='adam',
 **Book** \
 [Deep Learning with Python, 2nd Edition (Manning Publications) - By François Chollet](https://www.manning.com/books/deep-learning-with-python-second-edition?a_aid=keras&a_bid=76564dff) \
 Github: https://github.com/fchollet/deep-learning-with-python-notebooks
+
+**Dataset*
+[COCO Common Objects in Context](https://cocodataset.org/#home)  
+COCO is a large-scale object detection, segmentation, and captioning dataset. COCO has several features
