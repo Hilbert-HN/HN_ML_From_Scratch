@@ -90,23 +90,24 @@ train_examples_batch
 ```
 ### Step 2b - Preprocessing the dataset
 ### Step 3 - Build the machine learning model
-
 The basic building block of a neural network is the layer. Layers extract representations from the data fed into them.
 
-There are 2 ways of building Sequential model  
-**Example**
-```python
-model = keras.Sequential([
-                          layers.Dense(64, activation = 'relu'),
-                          layers.Dense(10, actuvation = 'softmax')
-])
-```
+- **Sequentail Model**  
+  There are 2 ways of building Sequential model  
+  ```python
+  model = keras.Sequential([
+                            layers.Dense(64, activation = 'relu'),
+                            layers.Dense(10, actuvation = 'softmax')
+  ])
+  ```
+  ```python
+  model = keras.Sequential()
+  model.add(layers.Dense(64, activation = 'relu'))
+  model.add(layers.Dense(10, activation = 'softmax'))
+  ```
+ - **Transfer Learning from Tensorflow Hub**
 
-```python
-model = keras.Sequential()
-model.add(layers.Dense(64, activation = 'relu'))
-model.add(layers.Dense(10, activation = 'softmax'))
-```
+
 
 
 ### Step 4 - Compile Model with optimizer, loss, metrics
