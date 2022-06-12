@@ -25,10 +25,10 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 <b>a - Image Labeling Install.ipynb</b> [Jupyter Notebook]  \
 
 <b>b - Nagivate to the labelmg files and run labelImg.py in Command Prompt</b> 
-<pre>
+```python
 cd TFODCourse\Tensorflow\labelimg
 python labelImg.py
-</pre>
+```
 
 <b>c - Start Labeling</b>\
 Hotkeys: w - Create a rect box | d -  Next image | a - Previous image
@@ -52,14 +52,14 @@ Hotkeys: w - Create a rect box | d -  Next image | a - Previous image
 ![image](https://user-images.githubusercontent.com/40123599/166990609-e0b8b6d6-d4a6-4c50-80a1-58a7ff104fd1.png)
 
 <b>c - Run below command</b>
-<pre>
+```python
 tensorboard --logdir=.
-</pre>
+```
 
 <b>d - Copy below link in browser</b>
-<pre>
+```python
 http://localhost:6006/
-</pre>
+```
 
 <b>[Tensorboard Example]</b>
 ![image](https://user-images.githubusercontent.com/40123599/166994295-00db471e-c10a-497d-b4ad-edee5fe2d4d1.png)
