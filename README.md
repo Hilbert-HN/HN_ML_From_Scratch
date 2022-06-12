@@ -23,7 +23,14 @@ TensorFlow Tutorial: https://www.tensorflow.org/tutorials
   **Tensorflow**
   ```python
   import tensorflow as tf
-  print(tf.__version__)
+  print("Version: ", tf.__version__)
+  
+  print("Eager mode: ", tf.executing_eagerly())
+  print("GPU is", "available" if tf.config.list_physical_devices("GPU") else "NOT AVAILABLE")
+  ```
+  **Tensforflow_hub**
+  ```python
+  print("Hub version: ", hub.__version__)
   ```
   
   **Keras**
