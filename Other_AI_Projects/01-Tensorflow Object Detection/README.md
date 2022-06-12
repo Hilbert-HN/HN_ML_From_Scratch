@@ -49,7 +49,7 @@ https://github.com/Hilbert-HN/HN_Reinforcement_Learning_Projects/blob/master/03_
 
 ![image](https://user-images.githubusercontent.com/40123599/166135223-2d3bb087-2f8f-42a5-93fd-89666917d4cc.png)
 
-## 5 - View Training and Evlalation Graph in TensorBoard 
+## 5 - View Training and Evaluation Graph in TensorBoard 
 <b>a - Training and Detection.ipynb</b> [Colab- After Step 7] \
 https://github.com/Hilbert-HN/HN_Reinforcement_Learning_Projects/blob/master/03_Other_AI_Projects/01-Tensorflow%20Object%20Detection/4.%20Training%20and%20Detection.ipynb
 
