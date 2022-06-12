@@ -83,7 +83,12 @@ TensorFlow Tutorial: https://www.tensorflow.org/tutorials
 </details>
 
 ### Step 1 - Load Dataset
-### Step 2 - Preprocessing the dataset
+### Step 2a - Explore the data
+```python
+train_examples_batch, train_lables_batch = next(iter(train_data.batch(10)))
+train_examples_batch
+```
+### Step 2b - Preprocessing the dataset
 ### Step 3 - Build the machine learning model
 
 The basic building block of a neural network is the layer. Layers extract representations from the data fed into them.
