@@ -12,7 +12,7 @@ TensorFlow Tutorial: https://www.tensorflow.org/tutorials
 | ------------------- | ----------- | ----- | --------------- | -------------------- |
 | [01-MNIST](01_TensorFlow_Exercises/01_MNIST.ipynb) | Multiclass Classification for images of hand written digits  | ![image](https://user-images.githubusercontent.com/40123599/170816078-14dfc2e2-9f5d-455c-a310-0ba33d47b9dd.png) | optimizer='adam' or 'rmsprop' <br />loss='sparse_categorical_crossentropy'<br />metrics=['accuracy'] | softmax | 
 | [02-Fashsion MNIST](01_TensorFlow_Exercises/02_Fashsion_MNIST.ipynb) | Multiclass Classification for images of clothing |![image](https://user-images.githubusercontent.com/40123599/170819065-2cbcef21-973a-43dc-93cc-d7f04d4f0426.png)|optimizer='adam'<br />loss='sparse_categorical_crossentropy'<br />metrics=['accuracy'] | softmax |
-| [03-IMDB Sentiment Analysis](01_TensorFlow_Exercises/03_IMDB_Sentiment_Analysis.ipynb) | Binary Classification for text of Movie Review |![image](https://user-images.githubusercontent.com/40123599/172426399-7f776100-8b02-49fc-aed0-9c3cd3039d96.png)| optimizer='adam',<br />loss='Binary_Crossentropy'<br />metrics=['binary_crossentropy'] | sigmoid |
+| [03-IMDB Sentiment](01_TensorFlow_Exercises/03_IMDB_Sentiment.ipynb) <br /> [04-IMDB Sentiment(with_TF_Hub)](01_TensorFlow_Exercises/04_IMDB_Sentiment(with_TF_Hub).ipynb)| Binary Classification for text of Movie Review |![image](https://user-images.githubusercontent.com/40123599/172426399-7f776100-8b02-49fc-aed0-9c3cd3039d96.png)| optimizer='adam',<br />loss='Binary_Crossentropy'<br />metrics=['binary_crossentropy'] | sigmoid |
 
 
 # Typical Machine Learning Workflow
