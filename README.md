@@ -92,7 +92,11 @@ train_examples_batch
 ### Step 3 - Build the machine learning model
 The basic building block of a neural network is the layer. Layers extract representations from the data fed into them.
 
-- **Sequential Model**  
+<details>
+  <summary>Differnet Ways to Build the model</summary>
+  
+  **Sequential Model**  
+  
   There are 2 ways of building Sequential model  
   ```python
   model = keras.Sequential([
@@ -105,9 +109,19 @@ The basic building block of a neural network is the layer. Layers extract repres
   model.add(layers.Dense(64, activation = 'relu'))
   model.add(layers.Dense(10, activation = 'softmax'))
   ```
- - **Transfer Learning from Tensorflow Hub**
+</details>
 
+<details>
+  <summary>Visualize the Model</summary>
+  
+  **Summary**  
+  ```python
+  Model.summary()
+  ```
+  ![image](https://user-images.githubusercontent.com/40123599/173235079-47d79fc4-9d6d-4812-8426-e353461ca38c.png)
 
+</details>
+  
 
 
 ### Step 4 - Compile Model with optimizer, loss, metrics
@@ -128,7 +142,7 @@ model.compile(optimizer='adam',
 
 <details>
   <summary>Loss</summary>
-  This measures how accurate the model is during training. You want to minimize this function to "steer" the model in the right direction.  
+  This measures how accurate the model is during training. You want to minimize this function to "steer" the model in the right direction.<br /> 
   Tensorflow.keras.loss Documenation - https://www.tensorflow.org/api_docs/python/tf/keras/losses  
   <br /><br />
   There are 2 common ways for calling the loss functions with model.compile ( ) API
