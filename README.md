@@ -30,6 +30,7 @@ TensorFlow Tutorial: https://www.tensorflow.org/tutorials
   ```
   **Tensforflow_hub**
   ```python
+  import tensorflow_hub as hub
   print("Hub version: ", hub.__version__)
   ```
   
