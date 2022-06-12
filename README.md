@@ -1,7 +1,7 @@
 ### My AI Repositories
-> HN_ML_From_Scratch: https://github.com/Hilbert-HN/HN_ML_From_Scratch  
-> HN_Reinforcement_Learning_Projects: https://github.com/Hilbert-HN/HN_Reinforcement_Learning_Projects  
-> Playground_AI: https://github.com/Hilbert-HN/Playground_AI  
+> [HN_ML_From_Scratch](https://github.com/Hilbert-HN/HN_ML_From_Scratch)  
+> [HN_Reinforcement_Learning_Projects](https://github.com/Hilbert-HN/HN_Reinforcement_Learning_Projects)  
+> [Playground_AI](https://github.com/Hilbert-HN/Playground_AI)
 
 # HN_ML_From_Scratch
 This is a repository to record the ML projects and useful information in my self-learning path on Machine Learning
