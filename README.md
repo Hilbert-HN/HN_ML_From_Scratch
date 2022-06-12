@@ -92,7 +92,7 @@ train_examples_batch
 ### Step 3 - Build the machine learning model
 The basic building block of a neural network is the layer. Layers extract representations from the data fed into them.
 
-- **Sequentail Model**  
+- **Sequential Model**  
   There are 2 ways of building Sequential model  
   ```python
   model = keras.Sequential([
