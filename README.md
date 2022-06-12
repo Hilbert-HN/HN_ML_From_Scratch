@@ -173,7 +173,7 @@ model.compile(optimizer='adam',
 </details>
 
 ### Step 5 - Train the model
-### Step 6 - Evaluate the model
+### Step 6 - Evaluate the model & Visualize the loss and accuracy
 ### Step 7 - Add Last Activation Layer 
 ### Step 8 - Prediction
 
