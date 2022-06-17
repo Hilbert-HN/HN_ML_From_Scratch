@@ -185,3 +185,6 @@ Github: https://github.com/fchollet/deep-learning-with-python-notebooks
 **Dataset**  
 [COCO Common Objects in Context](https://cocodataset.org/#home)  
 COCO is a large-scale object detection, segmentation, and captioning dataset. COCO has several features
+
+**Blog
+[Complete Guide to Data Augmentation for Computer Vision](https://towardsdatascience.com/complete-guide-to-data-augmentation-for-computer-vision-1abe4063ad07)
