@@ -15,7 +15,7 @@ TensorFlow Tutorial: https://www.tensorflow.org/tutorials
 | [03-IMDB Sentiment](01_TensorFlow_Exercises/03_IMDB_Sentiment.ipynb) <br /> [04-IMDB Sentiment(with_TF_Hub)](01_TensorFlow_Exercises/04_IMDB_Sentiment(with_TF_Hub).ipynb)| Binary Classification for text of Movie Review |![image](https://user-images.githubusercontent.com/40123599/172426399-7f776100-8b02-49fc-aed0-9c3cd3039d96.png)| optimizer='adam',<br />loss='Binary_Crossentropy'<br />metrics=['binary_crossentropy'] | sigmoid |
 
 
-# Typical Machine Learning Workflow
+# Typical Machine Learning Workflow (Keep Updating)
 ### Step 0 - Import Dependencies
 <details>
   <summary>Common Dependencies</summary>
